@@ -206,7 +206,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -218,7 +218,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -230,7 +230,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -243,6 +243,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -250,10 +262,10 @@ TextureImporter:
       name: Warrior_Run_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 566
-        width: 68
-        height: 129
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +283,10 @@ TextureImporter:
       name: Warrior_Run_1
       rect:
         serializedVersion: 2
-        x: 354
-        y: 567
-        width: 63
-        height: 135
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +304,10 @@ TextureImporter:
       name: Warrior_Run_2
       rect:
         serializedVersion: 2
-        x: 603
-        y: 567
-        width: 70
-        height: 139
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +325,10 @@ TextureImporter:
       name: Warrior_Run_3
       rect:
         serializedVersion: 2
-        x: 854
-        y: 569
-        width: 75
-        height: 138
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +346,10 @@ TextureImporter:
       name: Warrior_Run_4
       rect:
         serializedVersion: 2
-        x: 1106
-        y: 567
-        width: 78
-        height: 136
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +367,10 @@ TextureImporter:
       name: Warrior_Run_5
       rect:
         serializedVersion: 2
-        x: 1359
-        y: 571
-        width: 81
-        height: 128
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +388,10 @@ TextureImporter:
       name: Warrior_Run_6
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 570
-        width: 80
-        height: 131
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +409,10 @@ TextureImporter:
       name: Warrior_Run_7
       rect:
         serializedVersion: 2
-        x: 1872
-        y: 567
-        width: 77
-        height: 133
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +430,10 @@ TextureImporter:
       name: Warrior_Run_8
       rect:
         serializedVersion: 2
-        x: 86
-        y: 310
-        width: 75
-        height: 126
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +451,10 @@ TextureImporter:
       name: Warrior_Run_9
       rect:
         serializedVersion: 2
-        x: 348
-        y: 309
-        width: 86
-        height: 117
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +472,10 @@ TextureImporter:
       name: Warrior_Run_10
       rect:
         serializedVersion: 2
-        x: 611
-        y: 310
-        width: 94
-        height: 106
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +493,10 @@ TextureImporter:
       name: Warrior_Run_11
       rect:
         serializedVersion: 2
-        x: 871
-        y: 310
-        width: 93
-        height: 104
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +514,10 @@ TextureImporter:
       name: Warrior_Run_12
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 311
-        width: 98
-        height: 104
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,10 +535,10 @@ TextureImporter:
       name: Warrior_Run_13
       rect:
         serializedVersion: 2
-        x: 1370
-        y: 311
-        width: 104
-        height: 106
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,10 +556,10 @@ TextureImporter:
       name: Warrior_Run_14
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 312
-        width: 107
-        height: 107
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,10 +577,10 @@ TextureImporter:
       name: Warrior_Run_15
       rect:
         serializedVersion: 2
-        x: 1874
-        y: 313
-        width: 109
-        height: 107
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,10 +598,10 @@ TextureImporter:
       name: Warrior_Run_16
       rect:
         serializedVersion: 2
-        x: 80
-        y: 58
-        width: 109
-        height: 106
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,10 +619,10 @@ TextureImporter:
       name: Warrior_Run_17
       rect:
         serializedVersion: 2
-        x: 339
-        y: 56
-        width: 106
-        height: 108
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,10 +640,10 @@ TextureImporter:
       name: Warrior_Run_18
       rect:
         serializedVersion: 2
-        x: 596
-        y: 54
-        width: 105
-        height: 109
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,10 +661,10 @@ TextureImporter:
       name: Warrior_Run_19
       rect:
         serializedVersion: 2
-        x: 856
-        y: 53
-        width: 99
-        height: 108
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,10 +682,10 @@ TextureImporter:
       name: Warrior_Run_20
       rect:
         serializedVersion: 2
-        x: 1119
-        y: 54
-        width: 86
-        height: 118
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,10 +703,10 @@ TextureImporter:
       name: Warrior_Run_21
       rect:
         serializedVersion: 2
-        x: 1383
-        y: 54
-        width: 68
-        height: 129
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
