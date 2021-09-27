@@ -7,8 +7,8 @@ public class GroundCheckUtility2D : MonoBehaviour
     [SerializeField] private LayerMask _groundCheckLayerMask;
 
     [SerializeField] private float _groundCheckDistance = 0.2f;
-    [SerializeField] private Color _groundHit;
-    [SerializeField] private Color _groundMiss;
+    [SerializeField] private Color _groundHit = Color.green;
+    [SerializeField] private Color _groundMiss = Color.red;
     
     public bool IsGrounded { get; private set; }
     
